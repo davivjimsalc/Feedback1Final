@@ -4,7 +4,9 @@ He decidio usar una BBDD interna Room ya que me parece mas facil de usar, es par
 
 Descripcion de las actividades de la aplicacion:
 1. ActivityMain:
+
 ![image](https://github.com/user-attachments/assets/7bd30717-0225-43cf-bd0a-782059be613e)
+
 En esta actividad se muestra la lista de productos que tenemos (he considerado poner dos productos por defecto)
 Cada producto tiene un boton de Detalles que nos enviara a la actividad de Detalles pasando por un Intent su imagen (todas las imagenes son Drawable), el nombre y la descripcion.
 Como vemos cada producto tiene su LinearLayout el cual es dinamico, cada vez que añadimos un producto se añade un LinearLayout con su Imagen seleccionada, nombre y boton.
