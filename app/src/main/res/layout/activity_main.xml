@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <!-- Botón Editar Lista -->
+        <Button
+            android:id="@+id/btnEditarLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar lista"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:onClick="irAEditarLista" />
+
+        <!-- Espaciador -->
+        <Space
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <!-- Botón Acerca de -->
+        <Button
+            android:id="@+id/btnAcercaDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="mostrarAcercaDe"
+            android:text="Acerca de"
+            android:textColor="@android:color/white" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Contenedor de Scroll -->
+    <ScrollView
+        android:id="@+id/scrollViewProductos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <!-- Contenedor dinámico donde se inflarán los productos -->
+        <LinearLayout
+            android:id="@+id/layoutProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" />
+    </ScrollView>
+
+</RelativeLayout>
