@@ -15,8 +15,11 @@ Arriba tenemos el action bar con un boton para ir a la actividad de EditarLista 
 Ademas hay un boton de Acerca de que muestra informacion basica sobre la aplicacion
 
 2. EditarListaActivity:
+
 ![image](https://github.com/user-attachments/assets/37396910-4797-4989-a725-db5e35ee8586)
+
 ![image](https://github.com/user-attachments/assets/bb16a8a1-fc00-4a5e-b927-bbfc78bd7c4d)
+
 
 En esta actividad nos podemos mover hacia abajo gracias al ScrollView
 Se divide en 3 funciones:
@@ -28,6 +31,8 @@ Esots dos ultimos en cuanto a la BBDD hacen algo parecido al de añadir pero mod
 En el action bar tenemos ahora un boton de atras y el boton de Acerca de
 
 3. DetallesActivity:
+
 ![image](https://github.com/user-attachments/assets/6584bf25-0bc7-42ff-9e0f-15eb6dc1d02f)
+
 Por ultimo la actividad detalles la cual muestra los datos del producto desde el cual se ha accedido
 En el action bar ahora tenemos un boton de atras y el boton de Acerca de
